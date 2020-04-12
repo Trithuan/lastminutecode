@@ -30,7 +30,7 @@ SECRET_KEY = 'btxb$_zbyumel-%ts9*r^-$c+%re*g0i0r_%jdu8e36d*6#99!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["www.lastminutecode.fr"]
+ALLOWED_HOSTS = ["www.lastminutecode.fr",'127.0.0.1']
 
 
 # Application definition
