@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html > 
+    <head>
+        <meta charset="utf-8">
+        <title>Circum Vitea</title>
+    </head>
+    <body id = "content" style=" background-color: black;  overflow: hidden; ">
+        <p style="text-align: center;">
+            La visualisation n’est pas encore disponible sur votre navigateur, veillez à le mettre à jour.
+            </object>
+        </p>
+
+        <script type="text/javascript">
+        pdfDocument = document.getElementById("cv");
+        pageWidth = document.getElementById("content").offsetWidth;
+        documentWidth = 0.41 * pageWidth;
+        pdfDocument.style.width = documentWidth + "px";
+        pdfDocument.style.height = documentWidth * 1.2 + "px";
+        </script>
+    </body>
+</html>
